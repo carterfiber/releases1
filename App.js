@@ -36,6 +36,7 @@ const Model = t.struct({
 });
 
 const options = {
+  order: ['firstname', 'lastname', 'email', 'phone', 'birthdate', 'gender', 'terms'],
   fields: {
     terms: {
       label: 'Agree to Terms',
